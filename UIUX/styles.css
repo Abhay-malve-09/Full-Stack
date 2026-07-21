@@ -274,6 +274,20 @@ body {
     left: 100%;
 }
 
+.hero-visual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-visual img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
 /* ===== SERVICES SECTION ===== */
 .services {
     padding: 100px 0;
