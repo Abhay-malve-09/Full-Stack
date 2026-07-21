@@ -1,0 +1,23 @@
+2024/09/24 18:31:09 [notice] 13716#20324: signal process started
+2024/09/24 18:31:09 [error] 13716#20324: CreateFile() "C:\nginx-1.22.1/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2024/09/24 18:31:39 [error] 14944#19864: *1 CreateFile() "C:\nginx-1.22.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:4141", referrer: "http://localhost:4141/"
+2024/09/24 18:39:33 [notice] 5052#19512: signal process started
+2024/09/24 18:51:37 [notice] 20568#20712: signal process started
+2026/07/09 18:15:25 [error] 21236#16924: *7 CreateFile() "C:\Users\Dell\Downloads\nginx-1.22.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:4141", referrer: "http://localhost:4141/index.html"
+2026/07/10 14:33:21 [error] 12440#764: *1 CreateFile() "C:\Users\Dell\Downloads\Servers\nginx-1.22.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:4141", referrer: "http://localhost:4141/index.html"
+2026/07/10 14:58:22 [notice] 12380#13076: signal process started
+2026/07/10 15:01:20 [notice] 4236#12792: signal process started
+2026/07/12 12:14:38 [error] 14512#5460: *1 CreateFile() "C:\Users\Dell\Downloads\Servers\nginx-1.22.1/html/Rays.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /Rays.html HTTP/1.1", host: "localhost:4141"
+2026/07/12 12:14:38 [error] 14512#5460: *1 CreateFile() "C:\Users\Dell\Downloads\Servers\nginx-1.22.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:4141", referrer: "http://localhost:4141/Rays.html"
+2026/07/12 12:18:14 [notice] 13796#4408: signal process started
+2026/07/12 12:18:39 [notice] 14196#3244: signal process started
+2026/07/12 12:19:22 [notice] 13924#8076: signal process started
+2026/07/12 12:19:22 [error] 13924#8076: CreateFile() "C:\Users\Dell\Downloads\Servers\nginx-1.22.1/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2026/07/12 12:19:42 [notice] 4368#7208: signal process started
+2026/07/12 12:19:42 [error] 4368#7208: CreateFile() "C:\Users\Dell\Downloads\Servers\nginx-1.22.1/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2026/07/12 12:21:47 [notice] 1192#4412: signal process started
+2026/07/12 12:21:47 [error] 1192#4412: CreateFile() "C:\Users\Dell\Downloads\Servers\nginx-1.22.1/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2026/07/12 12:43:06 [error] 3208#11280: *1 directory index of "C:\Users\Dell\Downloads\Servers\nginx-1.22.1/html/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:4141"
+2026/07/12 12:43:08 [error] 3208#11280: *1 directory index of "C:\Users\Dell\Downloads\Servers\nginx-1.22.1/html/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:4141"
+2026/07/12 12:43:11 [error] 3208#11280: *1 CreateFile() "C:\Users\Dell\Downloads\Servers\nginx-1.22.1/html/index.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "localhost:4141"
+2026/07/12 12:44:13 [notice] 8172#2740: signal process started
