@@ -1,0 +1,7 @@
+services:
+  wildfly:
+    image: wildfly:latest
+    build: .
+    container_name: wildflyTest_container
+    ports:
+      - "1234:8080"

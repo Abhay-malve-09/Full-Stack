@@ -1,0 +1,7 @@
+services:
+  nginx:
+    image: nginx:latest
+    build: .
+    container_name: nginxTest-container
+    ports: 
+      - "2345:80"
