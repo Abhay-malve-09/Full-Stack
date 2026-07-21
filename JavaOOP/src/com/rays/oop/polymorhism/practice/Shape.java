@@ -1,0 +1,22 @@
+package com.rays.oop.polymorhism.practice;
+
+public class Shape {
+
+	public void execute() {
+		if (validate()) {
+			
+			area();
+
+		} else {
+			System.out.println("invalid parameters");
+		}
+	}
+	
+	public boolean validate() {
+		return false;
+	}
+
+	public void area() {
+		System.out.println("shape area method");
+	}
+}

@@ -1,0 +1,18 @@
+package com.rays.oop.polymorphism.bank;
+
+public class TestBank {
+
+	public static void main(String[] args) {
+		Bank b =  new Bank();
+		
+		System.out.println(b.getInterestRate());
+		AxisBank a = new AxisBank();
+		
+		System.out.println("Name: " + a.getName());
+		System.out.println("InterestRate: " + a.getInterestRate());
+		
+		System.out.println("----------------------");
+		
+		
+	}
+}

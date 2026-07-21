@@ -1,0 +1,25 @@
+package com.rays.oop.polymorphism.BankWithReturnType;
+
+public class TestBank {
+
+	public static void main(String[] args) {
+		
+		Bank[] b = new Bank[3];
+		
+		b[0] = Bank.getBank(1);
+		b[1] = Bank.getBank(2);
+		b[2] = Bank.getBank(3);
+		
+		AxisBank a = (AxisBank) b[0];
+		
+		IciciBank i1 = (IciciBank) b[1];
+		
+		SbiBank s = (SbiBank) b[2];
+		
+		for(int i=0; i<b.length; i++) {
+			System.out.println(b[i].getName() + " " + b[i].interestRate());
+		}
+		
+		
+	}
+}

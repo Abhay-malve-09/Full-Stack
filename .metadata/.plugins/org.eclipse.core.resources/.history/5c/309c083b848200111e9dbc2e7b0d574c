@@ -1,0 +1,15 @@
+package com.rays.oop.abstraction.shape;
+
+public class TestShape {
+
+	public static void main(String[] args) {
+		
+		Shape s1 = new Circle();
+		
+		Circle c = (Circle) s1;
+		
+		c.area();
+		c.setRadius(4);
+		c.area();
+	}
+}

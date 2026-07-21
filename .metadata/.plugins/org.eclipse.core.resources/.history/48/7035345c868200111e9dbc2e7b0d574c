@@ -1,0 +1,5 @@
+package com.rays.oop.abstraction.bank;
+
+public class SbiBank {
+
+}

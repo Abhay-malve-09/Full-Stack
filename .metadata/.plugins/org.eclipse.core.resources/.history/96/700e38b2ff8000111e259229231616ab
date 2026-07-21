@@ -1,0 +1,5 @@
+package com.rays.oop.polymorphism.BankWithReturnType;
+
+public class TestBank {
+
+}

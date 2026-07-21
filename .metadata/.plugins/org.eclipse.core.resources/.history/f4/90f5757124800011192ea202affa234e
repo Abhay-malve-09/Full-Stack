@@ -1,0 +1,10 @@
+package com.rays.oop.polymorphism;
+
+public class Circle extends Shape {
+
+	private int radius;
+	
+	public int getRadius() 
+	
+	
+}

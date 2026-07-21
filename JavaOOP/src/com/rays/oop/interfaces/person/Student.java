@@ -1,0 +1,33 @@
+package com.rays.oop.interfaces.person;
+
+public class Student extends Person implements Bio, Math {
+
+	@Override
+	public void Physics() {
+		// TODO Auto-generated method stub
+		System.out.println("Subject is Physics");
+	}
+
+	@Override
+	public void Chemistry() {
+		// TODO Auto-generated method stub
+		System.out.println("Subject is chemistry");
+		
+	}
+
+	@Override
+	public void Biology() {
+		// TODO Auto-generated method stub
+		System.out.println("Subject is biology");
+		
+	}
+
+	@Override
+	public void Maths() {
+		// TODO Auto-generated method stub
+		System.out.println("Subject is mathemetics");
+	}
+
+
+
+}

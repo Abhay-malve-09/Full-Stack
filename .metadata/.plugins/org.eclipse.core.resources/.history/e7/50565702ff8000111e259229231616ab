@@ -1,0 +1,13 @@
+package com.rays.oop.polymorphism.BankWithReturnType;
+
+public class Bank {
+
+	public String getName() {
+		return "RBI BANK";
+	}
+	
+	public double interestRate() {
+		return 10.0;
+	}
+	
+}

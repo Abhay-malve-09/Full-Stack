@@ -1,0 +1,21 @@
+package com.rays.oop.polymorphism.shapeWithReturnType;
+
+public class TestShape {
+	
+	public static void main(String[] args) {
+		
+		Shape[] s = new Shape[3];
+		
+		s[0] = Shape.getShape(1);
+		s[1] = Shape.getShape(2);
+		s[2] = Shape.getShape(3);
+		
+		Circle c = (Circle) s[0];
+		
+		c.setRadius(4);
+		
+		c.area();
+
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.rays.oop.interfaces.person;
+
+public interface Math {
+
+}

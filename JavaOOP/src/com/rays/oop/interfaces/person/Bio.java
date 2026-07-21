@@ -1,0 +1,10 @@
+package com.rays.oop.interfaces.person;
+
+public interface Bio {
+
+	public void Physics();
+	public void Chemistry();
+	public void Biology();
+	
+	
+}

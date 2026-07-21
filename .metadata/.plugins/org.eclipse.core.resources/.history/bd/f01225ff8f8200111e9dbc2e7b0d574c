@@ -1,0 +1,31 @@
+package com.rays.oop.interfaces.person;
+
+public class TestPerson {
+	public static void main(String[] args) {
+
+		Person p = new Student();
+
+		p.setName("Ayush");
+		p.setAddress("Indore");
+
+		System.out.println("Name: " + p.getName());
+		System.out.println("Address: " + p.getAddress());
+		
+		System.out.println("-----------------------");
+
+//		Student s1 = new Student();
+//
+//		s1.Biology();
+//		s1.Chemistry();
+//		s1.Physics();
+//		
+		System.out.println("------------------------");
+		
+		Student s2 = new Student();
+
+		s2.Maths();
+		s2.Chemistry();
+		s2.Physics();
+		
+	}
+}

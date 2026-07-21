@@ -1,0 +1,14 @@
+package com.rays.oop.polymorphism.BankWithReturnType;
+
+public class IciciBank extends Bank {
+
+	public String getName() {
+		return "ICICI BANK";
+	}
+	
+	@Override
+	public double interestRate() {
+		// TODO Auto-generated method stub
+		return 12.0;
+	}
+}

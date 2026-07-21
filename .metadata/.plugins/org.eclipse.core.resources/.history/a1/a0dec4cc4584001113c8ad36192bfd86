@@ -1,0 +1,12 @@
+package com.rays.oop.polymorhism.practice;
+
+public class TestShape {
+
+	public static void main(String[] args) {
+	
+		Rectangle r =  new Rectangle();
+		//Shape s = new Rectangle();
+		
+		r.arae();
+}
+}

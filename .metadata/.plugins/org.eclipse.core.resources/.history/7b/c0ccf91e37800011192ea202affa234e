@@ -1,0 +1,16 @@
+package com.rays.oop.polymorphism.bank;
+
+public class TestBankByCas {
+
+	public static void main(String[] args) {
+		
+		Bank b = new AxisBank();
+		
+		//type casting
+		
+		AxisBank a = (AxisBank) b;
+		
+		System.out.println("Name: " + a.getName());
+		System.out.println("InterestRate: " + a.getInterestRate());
+	}
+}

@@ -1,0 +1,42 @@
+package Exercise;
+
+public class TestBank {
+
+	public static void main(String[] args) {
+		
+		Bank b = new Bank();
+		
+		System.out.println("Name: " + b.getName());
+		System.out.println(b.getInterestRate());
+		
+		System.out.println();
+		
+		AxisBank ax = new AxisBank();
+		
+		ax.setNameOfAxis("AXISBANK");
+		ax.setInterestRateOfAxis(11.1);
+		
+		System.out.println("Name: " + ax.getName());
+		System.out.println("InterestRate of Axis bank: " + ax.getInterestRate() + "%");
+		
+		System.out.println();
+		
+		IciciBank ib = new IciciBank();
+		
+		ib.setNameOfIcici("ICICI BANK");
+		ib.setInterestRateOfIcici(9.8);
+		
+		System.out.println("Name: " + ib.getName());
+		System.out.println("InterestRate of Icici bank: " + ib.getInterestRate() + "%");
+		
+		System.out.println();
+		
+		SbiBank sb = new SbiBank();
+		
+		sb.setNameOfSbi("SBI BANK");
+		sb.setInterestRateOfSbi(10.00);
+		
+		System.out.println("Name: " + sb.getName());
+	    System.out.println("InterestRate of Sbi bank: " + sb.getInterestRate()  + "%");
+	}
+}

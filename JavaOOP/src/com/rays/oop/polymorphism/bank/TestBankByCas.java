@@ -1,0 +1,38 @@
+package com.rays.oop.polymorphism.bank;
+
+public class TestBankByCas {
+
+	public static void main(String[] args) {
+		
+		Bank b1 = new AxisBank();
+		
+		//type casting
+		
+		AxisBank a = (AxisBank) b1;
+		
+		System.out.println("Name: " + a.getName());
+		System.out.println("InterestRate: " + a.getInterestRate());
+		
+		System.out.println("------------------------------");
+		
+		Bank b2 = new IciciBank();
+		
+		//type casting 
+		
+		IciciBank i = (IciciBank) b2;
+		
+		System.out.println("Name: " + i.getName());
+		System.out.println("InterestRate: " + i.getInterestRate());
+		
+		System.out.println("-----------------------------");
+		
+		Bank b3 = new SbiBank();
+		
+		//type casting
+		
+		SbiBank s = (SbiBank) b3;
+		
+		System.out.println("Name: " + s.getName());
+		System.out.println("InterestRate: " + s.getInterestRate());
+	}
+}

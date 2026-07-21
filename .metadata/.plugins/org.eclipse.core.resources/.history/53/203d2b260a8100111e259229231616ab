@@ -1,0 +1,21 @@
+package com.rays.oop.ConstructorPractice;
+
+import java.util.Date;
+import java.text.SimpleDateFormat;
+import java.text.ParseException;
+
+public class TestPerson {
+	public static void main(String[] args) throws ParseException {
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+		
+		
+		
+	Person p = new Person("Person", "Indore", 2005-08-03);
+	
+	p.set
+	p.getName();
+	p.getAddress();
+	p.getDob(sdf.parse(2005-08-03));
+	}
+}

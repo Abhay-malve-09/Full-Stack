@@ -1,0 +1,18 @@
+package com.rays.oop.polymorhism.practice;
+
+public class TestShape {
+
+	public static void main(String[] args) {
+	
+		Rectangle r =  new Rectangle();
+		
+		//Shape s = new Rectangle();
+		
+//		Rectangle r = (Rectangle) s;
+		
+		r.setLength(0);
+		r.setWidth(20);
+		
+		r.execute();
+}
+}
