@@ -1,8 +1,0 @@
-package com.rays.oop.polymorphism;
-
-public class Shape {
-
-	public void area() {
-		System.out.println("Area of shape:");
-	}
-}

@@ -155,6 +155,20 @@ body.dark .hero {
   margin-bottom: 1rem;
 }
 
+/* Prevent layout shift from typing animation: keep span width/height stable */
+#typingText {
+  display: inline-block;
+  min-width: 26ch;
+  white-space: nowrap;
+  overflow: hidden;
+  vertical-align: bottom;
+}
+
+/* Ensure heading reserves space so buttons below don't jump */
+.hero h1 {
+  min-height: 3.6rem;
+}
+
 .intro {
   font-size: 1.05rem;
   color: var(--muted);
@@ -166,6 +180,7 @@ body.dark .hero {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
+  margin-top: 1rem;
 }
 
 .btn {

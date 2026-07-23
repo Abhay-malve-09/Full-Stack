@@ -1,8 +1,0 @@
-package com.rays.oop.polymorhism.practice;
-
-public class Shape {
-
-	public void area() {
-		System.out.println("area of shape");
-	}
-}

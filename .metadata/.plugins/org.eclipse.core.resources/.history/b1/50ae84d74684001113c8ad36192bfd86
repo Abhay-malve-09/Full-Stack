@@ -1,8 +1,0 @@
-package com.rays.oop.polymorhism.practice;
-
-public class Rectangle extends Shape {
-
-	public void arae() {
-		System.out.println("area of rectangle");
-	}
-}
