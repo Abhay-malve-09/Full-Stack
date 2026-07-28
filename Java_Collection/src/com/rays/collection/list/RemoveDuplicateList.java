@@ -2,7 +2,7 @@ package com.rays.collection.list;
 
 import java.util.*;
 
-public class TestArrayList {
+public class RemoveDuplicateList {
 
 	public static void main(String[] args) {
 		
@@ -30,7 +30,11 @@ public class TestArrayList {
 		}
 			
 		}
-		System.out.println(list1);
+		System.out.println("Original list: " + list);
+		
+		 
+		System.out.println("New list: " + list1);
+		
 	}
 }
 

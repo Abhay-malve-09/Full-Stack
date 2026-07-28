@@ -7,9 +7,9 @@ public class TestCollectionQueue {
    
 		Queue<Object> q = new ArrayDeque<>();
 		
-		q.add("hello");
-		q.add(12);
-		q.add('d');
+		q.offer("hello");
+		q.offer(12);
+		q.offer('d');
 		
 		
 		System.out.println(q.element());

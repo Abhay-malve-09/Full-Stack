@@ -44,7 +44,7 @@ public class TestCollectionList {
 	     
 	     System.out.println("------------------- searches objects from end -------------------");
 	     
-	     System.out.println(l.lastIndexOf(7.6) +" " + l);
+	     System.out.println(l.lastIndexOf(null) +" " + l);
 	     
 	     System.out.println("------------------- return subList -------------------");
 	     
