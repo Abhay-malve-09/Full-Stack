@@ -1,0 +1,13 @@
+package com.rays.collection.sorting.comparator;
+
+import java.util.Comparator;
+
+public class OrderByProductCategory implements Comparator<Product>{
+
+	@Override
+	public int compare(Product o1, Product o2) {
+		// TODO Auto-generated method stub
+		return o1.productCategory.compareTo(o2.productCategory);
+	}
+
+}
